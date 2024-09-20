@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md p-4">
+    <div class="container mx-auto flex justify-between">
+      <div class="text-2xl font-bold">My Portfolio</div>
+      <ul class="flex space-x-4">
+        <li><a href="#about" class="hover:text-blue-500">About</a></li>
+        <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
+        <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-blue-500 text-white py-20">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl font-bold mb-4">Hello, This is my Portofolio</h1>
+      <p class="text-xl mb-8">A passionate developer with skills in Electrical Technology</p>
+      <a href="#projects" class="bg-white text-blue-500 px-6 py-3 rounded-full hover:bg-gray-200">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">About Me</h2>
+      <p class="max-w-2xl mx-auto">I started my journey at SMAN 5 Surabaya and later pursued my studies in Electrical Engineering at ITS. I developed a strong interest in IoT and programming, and I am currently focused on expanding my knowledge in various areas of electrical engineering, particularly in control systems. I am a passionate learner who thrives on exploring new ideas and concepts. I am actively working on acquiring skills in microcontroller programming and implementing my knowledge gained from my studies at ITS into personal projects. My goal is to create innovative projects that showcase my technical expertise and reflect my curiosity-driven approach to learning.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-gray-200 py-20">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">My Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Project 1 -->
+        <div class="bg-white p-6 shadow-md rounded-md">
+          <img src="https://via.placeholder.com/300" alt="Project 1" class="mb-4 w-full h-48 object-cover rounded-md">
+          <h3 class="text-xl font-bold mb-2">Project 1</h3>
+          <p class="text-gray-600">A brief description of this project.</p>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="bg-white p-6 shadow-md rounded-md">
+          <img src="https://via.placeholder.com/300" alt="Project 2" class="mb-4 w-full h-48 object-cover rounded-md">
+          <h3 class="text-xl font-bold mb-2">Project 2</h3>
+          <p class="text-gray-600">A brief description of this project.</p>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="bg-white p-6 shadow-md rounded-md">
+          <img src="https://via.placeholder.com/300" alt="Project 3" class="mb-4 w-full h-48 object-cover rounded-md">
+          <h3 class="text-xl font-bold mb-2">Project 3</h3>
+          <p class="text-gray-600">A brief description of this project.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Get In Touch</h2>
+      <p class="mb-8">Feel free to reach out to me through the form below.</p>
+      <form class="max-w-lg mx-auto">
+        <input type="text" placeholder="Your Name" class="w-full mb-4 p-3 border rounded-md">
+        <input type="email" placeholder="Your Email" class="w-full mb-4 p-3 border rounded-md">
+        <textarea placeholder="Your Message" class="w-full mb-4 p-3 border rounded-md"></textarea>
+        <button type="submit" class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p>&copy; 2024 Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
